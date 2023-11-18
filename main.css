@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: nordic-font;
+    src: url(./Norse-Bold.otf);
+  }
+
+p {
+    font-family: nordic-font, sans-serif;
+    font-size: 30px;
+  }
+
+body {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9fafb;
+    font-family: 'Roboto', sans-serif;
+    color: #f9fafb;
+}
+
+.full-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .right-side{
+    background-color: #0000006e;
+    width: 70vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.left-side {
+    background-image: url(./image.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+    
+}
+
+.left-side-banner{
+    background-color: #0000006e;
+    display: flex;
+    position: absolute;
+    top: 17%;
+    min-width: 30vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-side-banner p{
+    color: #f9fafb;
+    font-weight: 600;
+}
+
+.left-side-banner img{
+    padding: 15px;
+    max-height: 20vh;
+}
+
+.form-style{
+    display: flex;
+}
+
+.form-style > label {
+    display: flex;
+    width: 10vw;
+    padding: 10px 10px 10px 0;
+}
+
+.form-style > input{
+    display: flex;
+    width: 30vw;
+    padding: 10px;
+}
+
+.child{
+    flex: 1;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+
+.whole-form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-style{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
